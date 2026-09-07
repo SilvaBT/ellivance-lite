@@ -9,7 +9,7 @@ import Dashboard from './pages/Dashboard.jsx';
 import EventForm from './pages/EventForm.jsx';
 import Profile from './pages/Profile.jsx';
 
-export default function App() {
+export default function app() {
   return (
     <Routes>
       <Route path="/" element={<Home />} />
